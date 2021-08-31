@@ -1,0 +1,148 @@
+body{
+    background-image:url(/images/bg-mobile.svg);
+    background-color: hsl(257, 40%, 49%);
+    font-size:1rem;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+}
+
+header{
+    width: 90%;
+    margin: 2em auto;
+}
+
+footer{
+    margin: 0 auto;
+    margin-top:3em;
+    margin-bottom:1em;
+}
+
+footer p{
+    margin: 0 auto;
+    text-align: center;
+    width: 85%;
+}
+
+footer p a{
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 56%;
+}
+
+h2{
+    font-weight: bold;
+}
+
+.container{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin: 3em auto;
+}
+
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.logo-image{
+    width:17%;
+    min-width: 140px;
+}
+
+.container-image{
+    width: 90%;
+    margin: 1.5em 0;
+}
+
+.container-body{
+    width: 90%;
+    margin: 1.5em 0;
+}
+
+.btn-design-rounded{
+
+    width:12rem;
+    height:2.2rem;
+    border-radius:2em;
+    outline:none;
+    border: none;
+    margin: 1em 0;
+    color:  hsl(257, 40%, 49%);
+    box-shadow: 5px 5px 5px  hsl(257, 49%, 39%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn-design-rounded:hover{
+    background-color: hsl(300, 69%, 71%);
+    color:white;
+}
+
+ul{
+    width: 45%;
+    max-width: 120px;
+    list-style: none;
+    display: flex;
+    margin: 3em auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 4rem;
+    color: white;
+    border: 1px solid white;
+    padding: 0.4em;
+    border-radius: 50%;
+}
+
+li a:hover{
+    opacity: 70%;
+}
+
+/* desktop design */
+
+@media (min-width: 750px){
+    body{
+        background-image: url(/images/bg-desktop.svg);
+    }
+    .container{
+       flex-direction: row;
+       justify-content:space-between;
+       align-items:flex-start;
+    }
+    .container-image{
+        width: 55%;
+    }
+    .container-body{
+        width: 40%;
+        text-align: left;
+    }
+
+    ul{
+        margin-top: 10em;
+        width: 100%;
+        max-width: 100%;
+        justify-content: flex-end;
+    }
+
+    li{
+        margin-left:1em;
+    }
+
+    .btn-design-rounded{
+        width: 11rem;
+        height: 2.4rem;
+        font-weight: bold;
+        padding: 1.2rem;
+    }
+
+    
+}
