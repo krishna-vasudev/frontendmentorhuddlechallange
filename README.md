@@ -16,7 +16,7 @@
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [LICENSE](#license)
 
 
 
@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/huddle-page-using-css-flexbox-XYF5M567jI)
+- Live Site URL: [live site](https://krishna-vasudev.github.io/frontendmentorhuddlechallange/)
 
 ## My process
 
