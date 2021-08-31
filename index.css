@@ -1,5 +1,5 @@
 body{
-    background-image:url(./images/bg-mobile.SVG);
+    background-image:url(./images/bg-mobile.svg);
     background-color: hsl(257, 40%, 49%);
     font-size:1rem;
     color:white;
@@ -111,7 +111,7 @@ li a:hover{
 
 @media (min-width: 750px){
     body{
-        background-image: url(./images/bg-desktop.SVG);
+        background-image: url(./images/bg-desktop.svg);
     }
     .container{
        flex-direction: row;
