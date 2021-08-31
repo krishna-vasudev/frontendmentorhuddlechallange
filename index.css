@@ -1,5 +1,5 @@
 body{
-    background-image:url(/images/bg-mobile.svg);
+    background-image:url(https://github.com/krishna-vasudev/Frontend-Mentor---Huddle-landing-page-with-single-introductory-section-solution/images/bg-mobile.svg);
     background-color: hsl(257, 40%, 49%);
     font-size:1rem;
     color:white;
@@ -111,7 +111,7 @@ li a:hover{
 
 @media (min-width: 750px){
     body{
-        background-image: url(/images/bg-desktop.svg);
+        background-image: url(https://github.com/krishna-vasudev/Frontend-Mentor---Huddle-landing-page-with-single-introductory-section-solution/images/bg-desktop.svg);
     }
     .container{
        flex-direction: row;
